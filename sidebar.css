@@ -1,0 +1,70 @@
+.sidebar{
+    background-color: none;
+    color: white;
+    position: fixed;
+    top: 55px;
+    left: 0px;
+    bottom: 0px;
+    width: 72px;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+
+#sidebar-home-icon, #sidebar-explore-icon, #sidebar-sub-icon, #sidebar-originals-icon, #sidebar-music-icon, #sidebar-library-icon{
+    height: 25px;
+    width: 25px;
+}
+
+.sidebar-link{
+    position: relative;
+    margin-bottom: 1px;
+    height: 75px;
+}
+
+.sidebar-link:hover{
+    background-color: rgb(244, 242, 242);
+}
+
+.sidebar-link img{
+    position: absolute;
+    top: 15px;
+    left: 22.5px;
+}
+
+.sidebar-link p{
+    position: absolute;
+    color: black;
+    font-family: Roboto, Arial;
+    font-size: 10px;
+}
+
+.sidebar-label-home{
+    top: 45px;
+    left: 21px;
+}
+
+.sidebar-label-explore{
+    top: 45px;
+    left: 19.5px;
+}
+
+.sidebar-label-sub{
+    top: 45px;
+    left: 5px;
+}
+
+.sidebar-label-originals{
+    top: 45px;
+    left: 15.5px;
+}
+
+.sidebar-label-music{
+    top: 45px;
+    left: 21px;
+}
+
+.sidebar-label-library{
+    top: 45px;
+    left: 19.5px;
+}
+

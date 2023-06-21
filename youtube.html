@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="youtube.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="video.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="header">
+        <div class="left-section">
+            <img src="pictures/hamburger-menu.svg" id="hamburger-menu-header" alt="">
+            <img src="pictures/youtube-logo.svg" id="youtube-logo-header">
+        </div>
+        <div class="middle-section">
+            <input type="text" placeholder="Search" class="search">
+            <button id="search-button">
+                <img src="pictures/search.svg" id="search-icon">
+                <div class="tooltip">Search</div>
+            </button>
+            <button id="voice-search-button">
+                <img src="pictures/voice-search-icon.svg" id="voice-search-icon">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="upload-container">
+                <img src="pictures/upload.svg" id="upload-icon">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="apps-container">
+                <img src="pictures/youtube-apps.svg" id="apps-icon">
+                <div class="tooltip">Youtube Apps</div>
+            </div>
+            <div class="notification-container">
+                <img src="pictures/notifications.svg" id="notif-icon">
+                <div class="notification-count">4</div>
+                <div class="tooltip">Notifications</div>
+            </div>
+            <img src="https://yt3.ggpht.com/yti/AHyvSCCu0Fwq3jdVXcfYTeG6PDwQ8pjj68_wnCdCezK7yQ=s88-c-k-c0x00ffffff-no-rj-mo" id="header-channel-pic">
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <div class="sidebar-link">
+            <img src="pictures/home.svg" id="sidebar-home-icon">
+            <p class="sidebar-label-home">Home</p>
+        </div>
+        <div class="sidebar-link">
+            <img src="pictures/explore.svg" id="sidebar-explore-icon">
+            <p class="sidebar-label-explore">Explore</p>
+        </div>
+        <div class="sidebar-link">
+            <img src="pictures/subscriptions.svg" id="sidebar-sub-icon">
+            <p class="sidebar-label-sub">Subscriptions</p>
+        </div>
+        <div class="sidebar-link">
+            <img src="pictures/originals.svg" id="sidebar-originals-icon">
+            <p class="sidebar-label-originals">Originals</p>
+        </div>
+        <div class="sidebar-link">
+            <img src="pictures/youtube-music.svg" id="sidebar-music-icon">
+            <p class="sidebar-label-music">Music</p>
+        </div>
+        <div class="sidebar-link">
+            <img src="pictures/library.svg" id="sidebar-library-icon">
+            <p class="sidebar-label-library">Library</p>
+        </div>  
+    </div>
+    
+
+    <div class="videos-container">
+        <div class="videos">
+            <div class="thumbnail-row">
+                    <img src="https://i.ytimg.com/vi/1yyRvyNQ5rQ/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAVatiHsD-9mIphmdLtJVchc2ncmg" class="thumbnail">
+                    <div class="video-time">10:00</div>
+            </div>
+            <div class="video-details-container">
+                <div class="channel-pic">
+                    <img src="https://yt3.ggpht.com/ytc/AGIKgqMRw_kEiWPBTqhwzb-9OsUsQlyyruL7r-1X2N21IUk=s68-c-k-c0x00ffffff-no-rj" class="profile-pic">
+                </div>
+                <div class="video-info">
+                    <p class="title">Stanford Computer Scientist Answers Coding Questions From Twitter | Tech Support | WIRED</p>
+                    <p class="author">WIRED</p>
+                    <p class="stats">2.7M Views &middot; 8 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="videos">
+            <div class="thumbnail-row">
+                <img src="https://i.ytimg.com/vi/J_PuVFP2_OI/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBaX29E5zN2JfN-koRenuJj_yBBhA"  class="thumbnail">
+                <div class="video-time">10:00</div>
+            </div>
+            
+            <div class="video-details-container">
+                <div class="channel-pic">
+                    <img src="//yt3.ggpht.com/irP3d4enfv6XoXaod6eLr_4mBrdb1y0eUsVzxj9QIlOmny7mY8HIzalNxqn1nAzVrZfM_cW8Opk=s176-c-k-c0x00ffffff-no-rj-mo" class="profile-pic">
+                </div>
+                <div class="video-info">
+                    <p class="title">Vegan Mark Cuban Interested In Meat Company Misfit Foods  | Shark Tank US | Shark Tank Global</p>
+                    <p class="author">Shark Tank Global</p>
+                    <p class="stats">393K Views &middot; 4 weeks ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="videos">
+            <div class="thumbnail-row">
+                <img src="https://i.ytimg.com/vi/GwT6gGMRr9s/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBvEN11yhvasuFo6yv4uiVyDtRHbQ" class="thumbnail">
+                <div class="video-time">10:00</div>
+            </div>
+            <div class="video-details-container">
+                <div class="channel-pic">
+                    <img src="https://yt3.ggpht.com/9TEDPMnGQB7ZDeVW9Z7UdiprBNnO7WF4Hx0Mt5UgLIgcMav9fcU6TMDD5T5VHzcQfpn9tYMg=s68-c-k-c0x00ffffff-no-rj" class="profile-pic">
+                </div>
+                <div class="video-info">
+                    <p class="title">1 Year of Coding in 5 Minutes (Computer Science First Year)</p>
+                    <p class="author">Frying Pan</p>
+                    <p class="stats">3.8M views &middot; 4 weeks ago</p>
+                </div>  
+            </div>
+        </div>
+        <div class="videos">
+            <div class="thumbnail-row">
+                    <img src="https://i.ytimg.com/vi/VkezQMb1DHw/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDWxl60G3KZeW-c3n5F588bg0btGQ" class="thumbnail">
+                    <div class="video-time">2:47</div>
+            </div>
+            <div class="video-details-container">
+                <div class="channel-pic">
+                    <img src="https://yt3.ggpht.com/ytc/AGIKgqMRw_kEiWPBTqhwzb-9OsUsQlyyruL7r-1X2N21IUk=s68-c-k-c0x00ffffff-no-rj" class="profile-pic">
+                </div>
+                <div class="video-info">
+                    <p class="title">High-school student makes React a million times faster</p>
+                    <p class="author">Fireship</p>
+                    <p class="stats">927k views &middot; 10 days ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="videos">
+            <div class="thumbnail-row">
+                <img src="https://i.ytimg.com/vi/J_PuVFP2_OI/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBaX29E5zN2JfN-koRenuJj_yBBhA"  class="thumbnail">
+                <div class="video-time">10:00</div>
+            </div>
+            
+            <div class="video-details-container">
+                <div class="channel-pic">
+                    <img src="//yt3.ggpht.com/irP3d4enfv6XoXaod6eLr_4mBrdb1y0eUsVzxj9QIlOmny7mY8HIzalNxqn1nAzVrZfM_cW8Opk=s176-c-k-c0x00ffffff-no-rj-mo" class="profile-pic">
+                </div>
+                <div class="video-info">
+                    <p class="title">Vegan Mark Cuban Interested In Meat Company Misfit Foods  | Shark Tank US | Shark Tank Global</p>
+                    <p class="author">Shark Tank Global</p>
+                    <p class="stats">393K Views &middot; 4 weeks ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="videos">
+            <div class="thumbnail-row">
+                <img src="https://i.ytimg.com/vi/GwT6gGMRr9s/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBvEN11yhvasuFo6yv4uiVyDtRHbQ" class="thumbnail" >
+                <div class="video-time">10:00</div>
+            </div>
+            <div class="video-details-container">
+                <div class="channel-pic">
+                    <img src="https://yt3.ggpht.com/9TEDPMnGQB7ZDeVW9Z7UdiprBNnO7WF4Hx0Mt5UgLIgcMav9fcU6TMDD5T5VHzcQfpn9tYMg=s68-c-k-c0x00ffffff-no-rj" class="profile-pic">
+                </div>
+                <div class="video-info">
+                    <p class="title">1 Year of Coding in 5 Minutes (Computer Science First Year)</p>
+                    <p class="author">Frying Pan</p>
+                    <p class="stats">3.8M views &middot; 4 weeks ago</p>
+                </div>  
+            </div>
+        </div>
+
+        <div class="videos">
+            <div class="thumbnail-row">
+                    <img src="https://i.ytimg.com/vi/VkezQMb1DHw/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDWxl60G3KZeW-c3n5F588bg0btGQ" class="thumbnail">
+                    <div class="video-time">2:47</div>
+            </div>
+            <div class="video-details-container">
+                <div class="channel-pic">
+                    <img src="https://yt3.ggpht.com/ytc/AGIKgqMRw_kEiWPBTqhwzb-9OsUsQlyyruL7r-1X2N21IUk=s68-c-k-c0x00ffffff-no-rj" class="profile-pic">
+                </div>
+                <div class="video-info">
+                    <p class="title">High-school student makes React a million times faster</p>
+                    <p class="author">Fireship</p>
+                    <p class="stats">927k views &middot; 10 days ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="videos">
+            <div class="thumbnail-row">
+                <img src="https://i.ytimg.com/vi/J_PuVFP2_OI/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBaX29E5zN2JfN-koRenuJj_yBBhA"  class="thumbnail">
+                <div class="video-time">10:00</div>
+            </div>
+            
+            <div class="video-details-container">
+                <div class="channel-pic">
+                    <img src="//yt3.ggpht.com/irP3d4enfv6XoXaod6eLr_4mBrdb1y0eUsVzxj9QIlOmny7mY8HIzalNxqn1nAzVrZfM_cW8Opk=s176-c-k-c0x00ffffff-no-rj-mo" class="profile-pic">
+                </div>
+                <div class="video-info">
+                    <p class="title">Vegan Mark Cuban Interested In Meat Company Misfit Foods  | Shark Tank US | Shark Tank Global</p>
+                    <p class="author">Shark Tank Global</p>
+                    <p class="stats">393K Views &middot; 4 weeks ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="videos">
+            <div class="thumbnail-row">
+                <img src="https://i.ytimg.com/vi/GwT6gGMRr9s/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBvEN11yhvasuFo6yv4uiVyDtRHbQ" class="thumbnail" >
+                <div class="video-time">10:00</div>
+            </div>
+            <div class="video-details-container">
+                <div class="channel-pic">
+                    <img src="https://yt3.ggpht.com/9TEDPMnGQB7ZDeVW9Z7UdiprBNnO7WF4Hx0Mt5UgLIgcMav9fcU6TMDD5T5VHzcQfpn9tYMg=s68-c-k-c0x00ffffff-no-rj" class="profile-pic">
+                </div>
+                <div class="video-info">
+                    <p class="title">1 Year of Coding in 5 Minutes (Computer Science First Year)</p>
+                    <p class="author">Frying Pan</p>
+                    <p class="stats">3.8M views &middot; 4 weeks ago</p>
+                </div>  
+            </div>
+        </div>
+
+        <div class="videos">
+            <div class="thumbnail-row">
+                    <img src="https://i.ytimg.com/vi/VkezQMb1DHw/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDWxl60G3KZeW-c3n5F588bg0btGQ" class="thumbnail">
+                    <div class="video-time">2:47</div>
+            </div>
+            <div class="video-details-container">
+                <div class="channel-pic">
+                    <img src="https://yt3.ggpht.com/ytc/AGIKgqMRw_kEiWPBTqhwzb-9OsUsQlyyruL7r-1X2N21IUk=s68-c-k-c0x00ffffff-no-rj" class="profile-pic">
+                </div>
+                <div class="video-info">
+                    <p class="title">High-school student makes React a million times faster</p>
+                    <p class="author">Fireship</p>
+                    <p class="stats">927k views &middot; 10 days ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="videos">
+            <div class="thumbnail-row">
+                <img src="https://i.ytimg.com/vi/J_PuVFP2_OI/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBaX29E5zN2JfN-koRenuJj_yBBhA"  class="thumbnail">
+                <div class="video-time">10:00</div>
+            </div>
+            
+            <div class="video-details-container">
+                <div class="channel-pic">
+                    <img src="//yt3.ggpht.com/irP3d4enfv6XoXaod6eLr_4mBrdb1y0eUsVzxj9QIlOmny7mY8HIzalNxqn1nAzVrZfM_cW8Opk=s176-c-k-c0x00ffffff-no-rj-mo" class="profile-pic">
+                </div>
+                <div class="video-info">
+                    <p class="title">Vegan Mark Cuban Interested In Meat Company Misfit Foods  | Shark Tank US | Shark Tank Global</p>
+                    <p class="author">Shark Tank Global</p>
+                    <p class="stats">393K Views &middot; 4 weeks ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="videos">
+            <div class="thumbnail-row">
+                <img src="https://i.ytimg.com/vi/GwT6gGMRr9s/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBvEN11yhvasuFo6yv4uiVyDtRHbQ" class="thumbnail" >
+                <div class="video-time">10:00</div>
+            </div>
+            <div class="video-details-container">
+                <div class="channel-pic">
+                    <img src="https://yt3.ggpht.com/9TEDPMnGQB7ZDeVW9Z7UdiprBNnO7WF4Hx0Mt5UgLIgcMav9fcU6TMDD5T5VHzcQfpn9tYMg=s68-c-k-c0x00ffffff-no-rj" class="profile-pic">
+                </div>
+                <div class="video-info">
+                    <p class="title">1 Year of Coding in 5 Minutes (Computer Science First Year)</p>
+                    <p class="author">Frying Pan</p>
+                    <p class="stats">3.8M views &middot; 4 weeks ago</p>
+                </div>  
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
